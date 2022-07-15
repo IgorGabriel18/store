@@ -1,0 +1,39 @@
+.container {
+    width: 18rem;
+    height: 22rem;
+    padding: 0.5rem;
+    display: grid;
+    grid: repeat(2, auto) / 100%;
+    row-gap: 1rem;
+    border: 0.125rem solid #131212;
+    border-radius: 0.5rem;
+
+    .price {
+        font: normal 600 1em / normal Montserrat, sans-serif;
+        color: #131212;
+    }
+
+    .category {
+        font: normal 300 0.75em / normal Montserrat, sans-serif;
+        color: #131212;
+    }
+}
+
+.product {
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid: repeat(2, auto) / 100%;
+    justify-items: center;
+    row-gap: 1.5rem;
+
+    img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    figcaption {
+        font: normal 600 1em / normal Montserrat, sans-serif;
+        color: #131212;
+    }
+}
